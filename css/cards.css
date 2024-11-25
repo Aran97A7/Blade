@@ -1,0 +1,50 @@
+
+.card_1{
+	background-image: url('./img/cards/orbalStaff.png');
+}
+
+.card_2{
+	background-image: url('./img/cards/gunswords.png');
+}
+
+.card_3{
+	background-image: url('./img/cards/bow.png');
+}
+
+.card_4{
+	background-image: url('./img/cards/sword.png');
+}
+
+
+.card_5{
+	background-image: url('./img/cards/shotgun.png');
+}
+
+.card_6{
+	background-image: url('./img/cards/spear.png');
+}
+
+.card_7{
+	background-image: url('./img/cards/greatsword.png');
+}
+
+.card_bolt{
+	background-image: url('./img/cards/bolt.png');
+}
+
+.card_blast{
+	background-image: url('./img/cards/blast.png');
+}
+
+.card_force{
+	background-image: url('./img/cards/force.png');
+}
+
+.card_mirror{
+	background-image: url('./img/cards/mirror.png');
+}
+
+.card_covered{
+	background-image: url('./img/cards/back1.png');
+	background-size:contain;
+}

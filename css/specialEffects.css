@@ -1,0 +1,71 @@
+#lightning
+{
+	position:absolute;
+	width:120px;
+	height:120px;
+	background-size: 120px;
+	background:transparent url('./img/specialEffects/realLightningDouble.png') no-repeat center;
+	background-size: contain;
+}
+
+
+.vortex
+{
+	position:absolute;
+	background-image:url(./img/background/vortice.gif);
+	background-size:contain;
+	width:100px;
+	height:95px;
+	left:400px;
+}
+
+#boltAura
+{
+	position:absolute;
+	margin:0 auto;
+	left:-12px;
+	width:100px;
+	height:100px;
+	background-size:contain;
+	background-image:url(./img/specialEffects/Aura.png);
+	background-repeat:no-repeat;
+}
+
+.forceAura
+{
+	border-style: solid;
+	border-width: 3px ; 
+	border-color: purple;
+}
+
+.purpleWall
+{
+	position:absolute;
+	margin:0 auto;
+	width:80px;
+	height:100px;
+	background-color:purple;
+}
+
+.tornado
+{
+	position:absolute;
+	margin:0 auto;
+	width:100px;
+	height:100px;
+	background-size:contain;
+	background-image:url(./img/specialEffects/tornado.png);
+	background-repeat:no-repeat;
+}
+
+.actualMirror
+{
+	position: absolute;
+	width:140px;
+	height:200px;
+	left:500px;
+	top:288px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image:url(./img/specialEffects/mirror.png);
+}

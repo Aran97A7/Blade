@@ -1,0 +1,226 @@
+<!Doctype>
+<html lang = "it">
+<head>
+	<title>Regole</title>
+	<meta charset = "utf-8">
+	<meta name = "author" content = "project">
+	<link rel="stylesheet" type="text/css" href="../CSS/fonts.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/Rules.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../CSS/Images/favicon.ico" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="#title">Titolo</a>
+		<a href="#field">Campo</a>
+		<a href="#gameplay">Gameplay</a>
+		<a href="#cardNav">Carte</a>
+		<a href="#toMainPage">indietro</a>
+	</div>
+	<div id="main">
+		<h1 id="title">Blade</h1>
+		<div class="sentenceContainer">
+			<p class="description"><b>Blade</b> è un gioco di carte
+				tratto dalla serie <cite>The Legend of Heroes</cite>
+			</p>
+		</div>
+		<section class="newSection">
+			<h2 class="header" id="field">Campo</h2>
+			<p class="description">Nel campo sono presenti questi elementi:</p>
+			<ul>
+				<li class="description"><b>Deck</b>: uno per giocatore. Un deck &egrave; composto da 29 carte <br>
+					ci sono 3 copie delle rispettive carte : le carte numerate ,bolt e mirror. <br> una sola copia delle carte : force e blast.
+				</li>
+				<li class="description"><b>Mano</b>: una per giocatore. La propria mano non è visibile all'altro giocatore.
+				</li>
+				<li class="description"><b>Campo</b>: ogni giocatore ha una pila di carte scoperte che aggiungono ad ogni turno.
+			</ul>
+		</section>
+
+		<section class ="newSection">
+			<h2 class="header" id="gameplay">Gameplay</h2>
+			<p class="description">Ad inizio partita ogni giocatore pesca 10 carte dal deck ed il duello si svolge in questo modo:</p>
+			<ul>
+				<li class="description">la prima fase è detta di <cite>Prova</cite>.
+					Ogni giocatore pesca una carta e la mette sul campo, il valore della carta viene aggiunta al totale(le carte senza valore in questo caso valgono <b>1</b>).
+					Se si ha lo stesso valore totale, allora le carte sul campo vengono scartate e si ritorna alla fase di <cite>Prova</cite>
+				</li>
+				<li class="description">
+					La giocata passa al giocatore con valore totale minore. <b>Lo scopo è avere un valore totale maggior dell'avversario</b>
+				</li>
+				<li class="description">
+					se il nuovo totale &egrave;  maggiore del totale dell'avversario,allora il turno passa all'avversario.
+				</li>
+				<li class="description">
+					se il nuovo totale &egrave; uguale a quello dell'avversario, allora si torna alla fase di <cite>Prova</cite>
+				</li>
+				<li class="description">
+					se il  nuovo totale &egrave; minore di quello dell'avversario, allora l'avversario <b>vince</b>
+				</li>
+				<li class="description">
+					qualora  finiscano le carte oppure si hanno solo carte senza valore in mano ("foul") , allora la vittoria &egrave; dell'avversario 
+				</li>
+			</ul>
+		</section>
+		<br>
+		<section class = "cardsSection">
+			<h3 class = "header" id="cardNav">Carte</h3>
+			<p class = "description">
+				In BLADE ci sono 2 tipi di carte : carte con valore o carte con effetto, a parte la carta numero 1 che ha sia valore che effetto.
+			</p>
+			<br>
+			<div id="wrapperValueCards">
+				<div class ="cardWrapper">
+					<div class = "card" id = "card7"></div>
+					<div class = "textWrapper">
+						<p> Carta con valore: 
+							ha valore 7.
+							<br> 
+							Rappresenta una spada grande.
+							<br>
+							Non ha effetto.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "card6"></div>
+					<div class = "textWrapper">
+						<p> Carta con valore: 
+							ha valore 6.
+							<br>
+							Rappresenta una lancia.
+							<br>
+							Non ha effetto.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "card5"></div>
+					<div class = "textWrapper">
+						<p > Carta con valore: 
+							ha valore 5.
+							<br>
+							 Rappresenta uno shotgun.
+							<br>
+							Non ha effetto.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "card4"></div>
+					<div class = "textWrapper">
+						<p > Carta con valore: 
+							ha valore 4.
+							<br>
+							Rappresenta una spada.
+							<br>
+							Non ha effetto.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "card3"></div>
+					<div class = "textWrapper">
+						<p> Carta con valore: 
+							ha valore 3.
+							<br> 
+							Rappresenta un arco.
+							<br>
+							Non ha effetto.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "card2"></div>
+					<div class = "textWrapper">
+						<p > Carta con valore: 
+							ha valore 2.
+							<br>
+							 Rappresenta una combinazione tra 
+							 spade ed armi da fuoco.
+							<br>
+							Non ha effetto.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "card1"></div>
+					<div class = "textWrapper">
+						<p > Carta con valore: 
+							ha valore 1.
+							<br> 
+							Rappresenta uno scettro.
+							<br>
+							quando giocata: fa ritornare in gioco l'ultima carta
+							 sul campo se è stata coperta da un Bolt.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "cardBolt"></div>
+					<div class = "textWrapper">
+						<p> Carta senza valore. 
+							<br>
+							Rappresenta una Tachi ed un fulmine.
+							<br>
+							Quando giocata copre l'ultima carta giocata dal tuo
+							avversario e ne sottrae il punteggio dal totale.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "cardMirror"></div>
+					<div class = "textWrapper">
+						<p> Carta senza valore.
+							<br>
+							Rappresenta uno specchio
+							<br>
+							Quando giocata scambia i rispettivi campi ed il punteggio totale.
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "cardForce"></div>
+					<div class = "textWrapper">
+						<p> Carta senza valore.
+							<br>
+							Rappresenta la combinazione di una spada ed una pistola.
+							<br>
+							Quando giocata raddoppia il punteggio totale
+						</p>
+					</div>
+
+				</div>
+				<div class ="cardWrapper">
+					<div class = "card" id = "cardBlast"></div>
+					<div class = "textWrapper">
+						<p> Carta senza valore.<br>
+							Rappresenta una Tachi ed un fulmine.<br>
+							Quando giocata scarta dalla mano dell'avversario una carta casuale.
+						</p>
+					</div>
+
+				</div>
+			<div>
+			</div>
+		</section>
+		<footer id="footer">
+			<div id="haveFun">
+				Le regole sono finite <br>
+				HAVE FUN!
+			</div>
+			<div id="mainPageWrapper">
+				<a id="toMainPage" href="./mainPage.php">Pagina principale</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
